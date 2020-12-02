@@ -14,3 +14,9 @@ class Dier{
 		System.out.println(abc);
 	}
 }
+
+
+// wat doet static?    
+// ENORM classe NIET bij object MAAR Object WEL bij classe
+// ENORM er is maar ruimte voor EEN waarde
+// scope
