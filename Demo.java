@@ -2,7 +2,7 @@
 class Demo{    // SD
 	public static void main(String [] args){
 		Dier dier = new Geit();
-		dier.lopen()
+		dier.lopen();
 	}
 }
 
@@ -17,3 +17,6 @@ class Geit extends Dier{
 		System.out.println("geit loopt");
 	}
 }
+// Inheritance 
+// overloaden
+// 
