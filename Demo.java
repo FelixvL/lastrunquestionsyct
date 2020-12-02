@@ -1,8 +1,7 @@
 
-class Demo{    // TG
+class Demo{    // TH
 	public static void main(String [] args){
- 		Geit dier = new Geit();
-		dier.rrr();  
+		Geit.rrr();  
 	}
 }
 interface RRR{
