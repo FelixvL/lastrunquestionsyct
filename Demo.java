@@ -1,19 +1,22 @@
 
-class Demo{    // TI
+class Demo{    // TS
 	public static void main(String [] args){
  		Geit dier = new Geit();
 		dier.lopen();  
 	}
 }
 interface RRR{
-	void rrr();
+	default void rrr(){
+		System.out.println("rrr");
+	}
 }
 class Geit implements RRR{
 	void lopen(){ 
 		System.out.println("lopen in geit");
 	}
+	public void rrr(){
+		System.out.println("nu doe ik het");
+	}
 }
 
-// interface
-	// impliciet public abstract -methoden
-	// fields zijn impliciet public static final
+
