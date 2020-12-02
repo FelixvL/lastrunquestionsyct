@@ -1,19 +1,24 @@
 
-class Demo{    // GS
+class Demo{    // GT
 	public static void main(String [] args){
-		BBB b = new CCC();
-		System.out.println("gaan");  
+		CCC b = new CCC();
+		b.ddd(); 
 	}
 }
 
-class AAA{
+class AAA{  
+	void ddd(){
+		System.out.println("aaa");
+	}
+}
+
+class CCC extends AAA{  
 
 }
 
-class CCC extends AAA{
-
-}
-
-class BBB extends CCC{
+class BBB extends CCC{ 
+	void ddd(){
+		System.out.println("ccc");
+	} 
 }
 
