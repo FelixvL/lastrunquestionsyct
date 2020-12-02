@@ -1,8 +1,8 @@
 
-class Demo{    // TS
+class Demo{    // TT
 	public static void main(String [] args){
  		Geit dier = new Geit();
-		dier.lopen();  
+		dier.rrr();  
 	}
 }
 interface RRR{
@@ -13,9 +13,6 @@ interface RRR{
 class Geit implements RRR{
 	void lopen(){ 
 		System.out.println("lopen in geit");
-	}
-	public void rrr(){
-		System.out.println("nu doe ik het");
 	}
 }
 
