@@ -17,6 +17,6 @@ class Geit extends Dier{
 		System.out.println("geit loopt");
 	}
 }
-// Inheritance 
+// Inheritance   // covariantie
 // overloaden
-// 
+// links bepaalt waar je bij kunt rechts bepaalt wat je kan en doet
