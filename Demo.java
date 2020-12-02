@@ -1,21 +1,16 @@
 
-class Demo{    // SG
+class Demo{    // YU
 	public static void main(String [] args){
-		Dier dier = new Geit();
-		dier.lopen(8);
+ 		System.out.println("hoi");
 	}
 }
 
 class Dier{
 	void lopen(){
-		System.out.println("dier loopt");
 	}
 }
 
 class Geit extends Dier{
-	void lopen(int a){ // zitten
-		System.out.println("geit loopt");
+	void lopen(int a) throws Exception{ 
 	}
 }
-// links bepaalt waar je bij kunt 
-// Overload TOTAAL ANDERE METHODE
