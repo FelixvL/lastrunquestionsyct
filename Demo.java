@@ -1,18 +1,19 @@
 
-class Demo{    // YD
+class Demo{    // TI
 	public static void main(String [] args){
  		Geit dier = new Geit();
 		dier.lopen();  
 	}
 }
-class Dier{
-	void lopen() throws Exception{  
-		System.out.println("lopen in dier");
-	}
+interface RRR{
+	void rrr();
 }
-class Geit extends Dier{
+class Geit implements RRR{
 	void lopen(){ 
 		System.out.println("lopen in geit");
 	}
 }
 
+// interface
+	// impliciet public abstract -methoden
+	// fields zijn impliciet public static final
