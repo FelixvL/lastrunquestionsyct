@@ -1,22 +1,19 @@
 
-class Demo{    // RD
+class Demo{    // SD
 	public static void main(String [] args){
-		Dier dier = new Dier();
-		dier.abc = 24;
-		Dier dier2 = new Dier();
-		dier2.lopen();
+		Dier dier = new Geit();
+		dier.lopen()
 	}
 }
 
 class Dier{
-	static int abc = 34;
-	static void lopen(){
-		System.out.println(abc);
+	void lopen(){
+		System.out.println("dier loopt");
 	}
 }
 
-
-// wat doet static?    
-// ENORM classe NIET bij object MAAR Object WEL bij classe
-// ENORM er is maar ruimte voor EEN waarde
-// scope
+class Geit extends Dier{
+	void lopen(int a){
+		System.out.println("geit loopt");
+	}
+}
