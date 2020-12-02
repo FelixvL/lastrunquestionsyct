@@ -1,13 +1,13 @@
 
-class Demo{    // GR
+class Demo{    // GW
 	public static void main(String [] args){
 		AAA b = new BBB();
-		b.ddd(); 
+		b.ddd().ddd(); 
 	}
 }
 
 class AAA{  
-	void ddd(){
+	AAA ddd(){
 		System.out.println("aaa");
 	}
 }
@@ -17,8 +17,9 @@ class CCC extends AAA{
 }
 
 class BBB extends CCC{ 
-	void ddd(){
+	CCC ddd(){
 		System.out.println("ccc");
+		return new BBB();
 	} 
 }
 
