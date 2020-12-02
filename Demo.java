@@ -6,7 +6,7 @@ class Demo{    // GW
 	}
 }
 class Kaas{
-	Ingredient inoemen(){
+	Melk inoemen(){
 		return new Melk();
 	}
 }
