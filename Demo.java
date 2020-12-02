@@ -1,5 +1,5 @@
 
-class Demo{    // GV
+class Demo{    // GM
 	public static void main(String [] args){
 		AAA b = new BBB();
 		System.out.println(b.ddd().ddd().getal); 
@@ -7,7 +7,7 @@ class Demo{    // GV
 }
 class AAA{  
 	int getal = 14;
-	AAA ddd(){
+	CCC ddd(){
 		System.out.println("aaa");
 		return new AAA();
 	}
