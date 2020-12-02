@@ -1,13 +1,12 @@
 
-class Demo{    // YA
-	public static void main(String [] args) throws{
- 		Dier dier = new Geit();
-try
-		dier.lopen();  // afhandelen || throwsen
+class Demo{    // YD
+	public static void main(String [] args){
+ 		Geit dier = new Geit();
+		dier.lopen();  
 	}
 }
 class Dier{
-	void lopen() throws Exception{   // declare
+	void lopen() throws Exception{  
 		System.out.println("lopen in dier");
 	}
 }
@@ -17,7 +16,3 @@ class Geit extends Dier{
 	}
 }
 
-// inheritance - 4 regels van override
-// Exception regel
-	// exception throws mag ook 'gelogen' zijn
-	// checked exception - try catch OF throwsen || afhandelen of doorwerpen
