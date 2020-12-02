@@ -1,18 +1,16 @@
 
-class Demo{    // TH
+class Demo{    // PA
 	public static void main(String [] args){
-		Geit.rrr();  
-	}
-}
-interface RRR{
-	static void rrr(){
-		System.out.println("rrr");
-	}
-}
-class Geit implements RRR{
-	void lopen(){ 
-		System.out.println("lopen in geit");
+		Plant p = new Plant();
+		System.out.println(p.groeien());  
 	}
 }
 
+class Plant{
+	static int a = groeien();
+	static int groeien(){
+		System.out.println("groeien");
+		return 6;
+	}
+}
 
