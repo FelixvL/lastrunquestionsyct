@@ -1,7 +1,7 @@
 
-class Demo{    // GT
+class Demo{    // GR
 	public static void main(String [] args){
-		CCC b = new CCC();
+		AAA b = new BBB();
 		b.ddd(); 
 	}
 }
