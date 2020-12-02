@@ -1,8 +1,8 @@
 
-class Demo{    // SD
+class Demo{    // SG
 	public static void main(String [] args){
 		Dier dier = new Geit();
-		dier.lopen();
+		dier.lopen(8);
 	}
 }
 
@@ -13,10 +13,9 @@ class Dier{
 }
 
 class Geit extends Dier{
-	void lopen(int a){
+	void lopen(int a){ // zitten
 		System.out.println("geit loopt");
 	}
 }
-// Inheritance   // covariantie
-// overloaden
-// links bepaalt waar je bij kunt rechts bepaalt wat je kan en doet
+// links bepaalt waar je bij kunt 
+// Overload TOTAAL ANDERE METHODE
