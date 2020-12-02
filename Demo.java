@@ -1,22 +1,19 @@
 
-class Demo{    // PB
+class Demo{    // GS
 	public static void main(String [] args){
-		Plant p = new Plant();
-		Plant p2 = new Plant();
-		System.out.println(p.groeien());  
+		BBB b = new CCC();
+		System.out.println("gaan");  
 	}
 }
 
-class Plant{
-	static int a = groeien();
-	static int groeien(){
-		System.out.println("groeien");
-		return 6;
-	}
-	int b = groeienb();
-	int groeienb(){
-		System.out.println("krimpen");
-		return 9;
-	}
+class AAA{
+
+}
+
+class CCC extends AAA{
+
+}
+
+class BBB extends CCC{
 }
 
