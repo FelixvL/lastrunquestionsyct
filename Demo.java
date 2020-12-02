@@ -1,25 +1,26 @@
 
-class Demo{    // GW
+class Demo{    // GM
 	public static void main(String [] args){
-		Kaas kaas = new Kaas();
-		System.out.println(kaas.inoemen().prijs); 
+		AAA b = new BBB();
+		System.out.println(b.ddd().ddd().getal); 
 	}
 }
-class Kaas{
-	Melk inoemen(){
-		return new Melk();
+class AAA{  
+	int getal = 14;
+	CCC ddd(){
+		System.out.println("aaa");
+		return new AAA();
 	}
 }
-class Ingredient{
-	int prijs = 34;
-	void checkit(){
-		System.out.println("go");
-	}
+class CCC extends AAA{  
+	int getal = 15;
+
+}
+class BBB extends CCC{ 
+	int getal = 16;
+	CCC ddd(){
+		System.out.println("ccc");
+		return new BBB();
+	} 
 }
 
-class Melk extends Ingredient{
-	int prijs = 35;
-	void checkit(){
-		System.out.println("flo");
-	}
-}
