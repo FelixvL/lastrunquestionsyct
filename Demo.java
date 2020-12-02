@@ -1,5 +1,5 @@
 
-class Demo{    // YY
+class Demo{    // YZ
 	public static void main(String [] args){
  		Dier dier = new Geit();
 		dier.lopen();
@@ -13,7 +13,7 @@ class Dier{
 }
 
 class Geit extends Dier{
-	void lopen(int a) throws Exception{ 
+	void lopen() throws Exception{ 
 		System.out.println("lopen in geit");
 	}
 }
