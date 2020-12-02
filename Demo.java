@@ -1,8 +1,13 @@
 
-class Demo{    // ZC
+class Demo{    // RB
 	public static void main(String [] args){
-		float f = 34;
-		System.out.println(f);
+		Dier dier = new Dier();
+		dier.lopen();
 	}
 }
 
+class Dier{
+	void lopen(){
+		System.out.println(this);
+	}
+}
