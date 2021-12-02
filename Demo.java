@@ -1,6 +1,6 @@
 
-class Demo{    // UE
-	public static final void main(String [] args){
+class Demo{    // UF
+	void main(String [] args){
 		System.out.println("boe");
 		System.out.println(new Koe().oog);
 		go();
