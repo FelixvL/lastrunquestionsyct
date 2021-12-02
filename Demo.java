@@ -1,16 +1,17 @@
 
-class Demo{    // UH
+class Demo{    // UI
 	public static void main(String [] args){
-		System.out.println(args);
-		System.out.println(new Koe().oog);
-		go();
+		AAA bbb = new BBB();
+		System.out.println(bbb.aaa);
 	}
-	static public void go(){
-		System.out.println("boem");
-	}
+
 }
-class Koe{
-	int oog = 5;
+class AAA{
+	int bbb;	
+}
+
+class BBB extends AAA{
+	int aaa;
 }
 
 
